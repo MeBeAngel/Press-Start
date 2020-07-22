@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'manaspaceregular';
+  src:
+  url('../../Fonts/manaspc-webfont.woff2') format('woff2'),
+  url('../../Fonts/manaspc-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+.Hello-Wrapper {
+  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+  width: 55%;
+  height: auto;
+  background-color: ;
+}
+
+.Hello-Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  padding: 20px 10px 20px 10px;
+  border: double gray 10px;
+  background-color: black;
+}
+
+.Hello-Text-Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 90%;
+  height: 20%;
+  margin: 0px 0px 10px 0px;
+  text-justify: inter-word;
+  font-size: 1em;
+  color: white;
+  background-color: ;
+}
+
+.Hello-Text-Para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 90%;
+  height: 80%;
+  text-justify: inter-word;
+  font-size: 1em;
+  line-height: 1.3em;
+  color: white;
+  background-color: ;
+}
+
+.Hello-Img-Wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  width: 40%;
+  height: auto;
+  margin-top: 20px;
+  background-color: ;
+}
+
+.Hello-Img img {
+
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+
+
+.Nav-Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  background-color: ;
+}
+
+.Nav-Wrapper ul {
+  list-style: none;
+  list-style-position: outside;
+  padding: 30px 100px 0px 100px;
+  background-color: ;
+}
+
+.Nav-Wrapper li {
+  padding: 0px 0px 30px 10px;
+  line-height: 2.5em;
+  font-size: 1.3em;
+}
+
+.Nav-Wrapper li:hover {
+  list-style-image: url('../../Images/Finger.png');
+  font-weight: bold;
+}
+
+.Nav-Wrapper a {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 499px) {}
+
+@media only screen and (min-width: 500px) and (max-width: 740px) {}
+
+@media only screen and (min-width: 741px) and (max-width: 1023px) {}
+
+@media only screen and (min-width: 1024px) {}
