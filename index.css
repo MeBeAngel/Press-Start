@@ -50,5 +50,32 @@ body {
 
 @media only screen and (min-width: 320px) and (max-width: 499px) {
 
+  .Press-Start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 80%;
+    height: 200px;
+    background-color: ;
+    overflow: hidden;
+  }
+
+  .Press-Start img {
+    width: 100%;
+    height: auto;
+    margin-top: 130px;
+  }
+
+  .Pixel-Me-Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 80%;
+    height: auto;
+    background-color: ;
+  }
 
   }
