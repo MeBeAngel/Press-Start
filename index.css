@@ -54,13 +54,14 @@ body {
     box-sizing: border-box;
     width: 90%;
     height: 100%;
+    padding: 50px 0px 50px 0px;
     background-color: ;
   }
 
   .Title-Wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     box-sizing: border-box;
     width: 100%;
     height: 25%;
@@ -93,7 +94,7 @@ body {
   .Press-Start {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
     box-sizing: border-box;
     width: 100%;
     height: 25%;
