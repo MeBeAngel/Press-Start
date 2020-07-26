@@ -137,26 +137,25 @@ body {
       align-items: flex-start;
       flex-wrap: wrap;
       box-sizing: border-box;
-      width: 100%;
+      width: 90%;
       height: 100%;
-      padding: 20px 0px 20px 0px;
       background-color: ;
     }
 
     .Title-Wrapper {
       display: flex;
       justify-content: center;
-      align-items: flex-start;
+      align-items: center;
       box-sizing: border-box;
       width: 100%;
-      height: 15%;
+      height: 25%;
       background-color: ;
     }
 
     .Title-Wrapper h1 {
       font-family: 'kongtextregular';
       font-size: 1.4em;
-      font-size: 5vw;
+      font-size: 6.3vw;
       color: black;
     }
 
@@ -166,33 +165,31 @@ body {
       align-items: center;
       box-sizing: border-box;
       width: 100%;
-      height: 70%;
+      height: 50%;
       background-color: ;
     }
 
     .Img-Wrapper img {
-    width: 300px;
-    height: 300px;
-    margin-top: 10px;
+
     }
 
 
     .Press-Start {
       display: flex;
       justify-content: center;
-      align-items: flex-end;
+      align-items: center;
       box-sizing: border-box;
       width: 100%;
-      height: 15%;
-      background-color:;
+      height: 25%;
+      background-color: ;
       overflow: hidden;
     }
 
     .Press-Start a {
       box-sizing: border-box;
       font-family: 'manaspaceregular';
-      font-size: 1em;
-      font-size: 2.5vw;
+      font-size: 1.3em;
+      font-size: 5vw;
       text-decoration: none;
       color: white;
       padding: 10px 10px 10px 10px;
@@ -202,14 +199,14 @@ body {
 
     .Blinking{
       animation:blinkingText 1.2s infinite;
-    }
-    @keyframes blinkingText{
+  }
+  @keyframes blinkingText{
       0%{     color: white;    }
       49%{    color: white; }
       60%{    color: transparent; }
       99%{    color:transparent;  }
       100%{   color: white;    }
-    }
+  }
 
   }
 
@@ -220,7 +217,82 @@ body {
 
   @media only screen and (min-width: 741px) and (max-width: 1023px) {
 
+    .Pixel-Me-Wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      width: 90%;
+      height: 100%;
+      background-color: ;
+    }
 
+    .Title-Wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      width: 100%;
+      height: 25%;
+      background-color: ;
+    }
+
+    .Title-Wrapper h1 {
+      font-family: 'kongtextregular';
+      font-size: 1.4em;
+      font-size: 6.3vw;
+      color: black;
+    }
+
+    .Img-Wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      width: 100%;
+      height: 50%;
+      background-color: ;
+    }
+
+    .Img-Wrapper img {
+
+    }
+
+
+    .Press-Start {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      width: 100%;
+      height: 25%;
+      background-color: ;
+      overflow: hidden;
+    }
+
+    .Press-Start a {
+      box-sizing: border-box;
+      font-family: 'manaspaceregular';
+      font-size: 1.3em;
+      font-size: 5vw;
+      text-decoration: none;
+      color: white;
+      padding: 10px 10px 10px 10px;
+      border-radius: 5px;
+      background-color: black;
+    }
+
+    .Blinking{
+      animation:blinkingText 1.2s infinite;
+  }
+  @keyframes blinkingText{
+      0%{     color: white;    }
+      49%{    color: white; }
+      60%{    color: transparent; }
+      99%{    color:transparent;  }
+      100%{   color: white;    }
+  }
 
   }
 
@@ -277,7 +349,7 @@ body {
     .Press-Start {
       display: flex;
       justify-content: center;
-      align-items: flex-start;
+      align-items: center;
       box-sizing: border-box;
       width: 100%;
       height: 25%;
