@@ -155,7 +155,7 @@ body {
     .Title-Wrapper h1 {
       font-family: 'kongtextregular';
       font-size: 1.4em;
-      font-size: 6.3vw;
+      font-size: 5vw;
       color: black;
     }
 
@@ -171,7 +171,7 @@ body {
 
     .Img-Wrapper img {
       width: auto;
-      height: auto;
+      height: 100%;
     }
 
 
@@ -190,7 +190,7 @@ body {
       box-sizing: border-box;
       font-family: 'manaspaceregular';
       font-size: 1.3em;
-      font-size: 5vw;
+      font-size: 3vw;
       text-decoration: none;
       color: white;
       padding: 10px 10px 10px 10px;
@@ -258,7 +258,7 @@ body {
 
     .Img-Wrapper img {
       width: auto;
-      height: auto;
+      height: 100%;
     }
 
 
@@ -345,7 +345,7 @@ body {
 
     .Img-Wrapper img {
       width: auto;
-      height: auto;
+      height: 100%;
     }
 
 
