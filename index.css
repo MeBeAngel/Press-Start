@@ -67,7 +67,7 @@ body {
 
 .Title-Wrapper h1 {
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 50px;
   font-family: '04b30';
   font-size: 2em;
   letter-spacing: 6px;
@@ -104,6 +104,7 @@ body {
 }
 
 .Press-Start a {
+  padding: 20px 0px 0px 0px;
   box-sizing: border-box;
   font-family: 'manaspaceregular';
   font-size: 1.5em;
@@ -147,7 +148,6 @@ body {
   display: none;
   text-align: center;
   width: 100%;
-  padding: 25px 0 0 0;
   font-weight: bold;
 }
 
@@ -155,7 +155,7 @@ body {
   display: none;
   text-align: center;
   width: 100%;
-  padding: 0 0 25px 0;
+  padding: 0px 0px 30px 0px;
   font-weight: bold;
 }
 
@@ -175,15 +175,17 @@ body {
 
   .Title-Wrapper h1 {
     font-size: 1.8em;
+    padding: 0px 0px 20px 0px;
   }
 
   .Press-Start a {
     font-size: 1.5em;
+    padding: 10px 0px 0px 0px;
   }
 
 
   #New-Project {
-    padding: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
   }
 
   #Continue {
@@ -211,15 +213,16 @@ body {
 
   .Press-Start a {
     font-size: 2.5em;
+    padding: 30px 0px 0px 0px;
   }
 
 
   #New-Project {
-    padding: 20px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
   }
 
   #Continue {
-    padding: 20px 0px 0px 0px;
+    padding: 0px 0px 30px 0px;
   }
 
 }
@@ -244,15 +247,16 @@ body {
 
   .Press-Start a {
     font-size: 2.5em;
+    padding: 30px 0px 0px 0px;
   }
 
 
   #New-Project {
-    padding: 20px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
   }
 
   #Continue {
-    padding: 20px 0px 0px 0px;
+    padding: 0px 0px 30px 0px;
   }
 
 }
@@ -277,15 +281,16 @@ body {
 
   .Press-Start a {
     font-size: 3.5em;
+    padding: 30px 0px 0px 0px;
   }
 
 
   #New-Project {
-    padding: 20px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
   }
 
   #Continue {
-    padding: 20px 0px 0px 0px;
+    padding: 0px 0px 30px 0px;
   }
 
 }
