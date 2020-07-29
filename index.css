@@ -51,7 +51,7 @@ body {
 .Title-Wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-wrap: wrap;
   box-sizing: border-box;
   width: 100%;
@@ -67,6 +67,7 @@ body {
 
 .Title-Wrapper h1 {
   text-align: center;
+  padding-bottom: 15px;
   font-family: '04b30';
   font-size: 2em;
   letter-spacing: 6px;
@@ -92,12 +93,12 @@ body {
 .Press-Start {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   box-sizing: border-box;
   width: 100%;
   height: 25%;
   background-color: ;
-  overflow: hidden;
   background-image: url('./Images/Background-Bottom-Color.png');
   background-size: 100% 100%;
 }
@@ -107,11 +108,15 @@ body {
   font-family: 'manaspaceregular';
   font-size: 1.5em;
   text-decoration: none;
-  color: #2268CBFF;
+  color: #66B2FFFF;
+}
+
+.Press-Start a:hover {
+  cursor: pointer;
 }
 
 
-.Blinking {
+#Start {
   animation: blinkingText 1.2s infinite;
 }
 
@@ -138,6 +143,23 @@ body {
 }
 
 
+#New-Project {
+  display: none;
+  text-align: center;
+  width: 100%;
+  padding: 25px 0 0 0;
+  font-weight: bold;
+}
+
+#Continue {
+  display: none;
+  text-align: center;
+  width: 100%;
+  padding: 0 0 25px 0;
+  font-weight: bold;
+}
+
+
 
 
 
@@ -158,7 +180,20 @@ body {
   .Press-Start a {
     font-size: 1.5em;
   }
+
+
+  #New-Project {
+    padding: 0px 0px 0px 0px;
+  }
+
+  #Continue {
+    padding: 0px 0px 0px 0px;
+  }
+
 }
+
+
+
 
 
 
@@ -177,6 +212,16 @@ body {
   .Press-Start a {
     font-size: 2.5em;
   }
+
+
+  #New-Project {
+    padding: 20px 0px 0px 0px;
+  }
+
+  #Continue {
+    padding: 20px 0px 0px 0px;
+  }
+
 }
 
 
@@ -200,6 +245,16 @@ body {
   .Press-Start a {
     font-size: 2.5em;
   }
+
+
+  #New-Project {
+    padding: 20px 0px 0px 0px;
+  }
+
+  #Continue {
+    padding: 20px 0px 0px 0px;
+  }
+
 }
 
 
@@ -223,4 +278,14 @@ body {
   .Press-Start a {
     font-size: 3.5em;
   }
+
+
+  #New-Project {
+    padding: 20px 0px 0px 0px;
+  }
+
+  #Continue {
+    padding: 20px 0px 0px 0px;
+  }
+
 }
