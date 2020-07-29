@@ -177,7 +177,8 @@ body {
 
 
 
-@media only screen and (orientation:landscape) {
+@media only screen and (orientation: landscape) and (min-width: 500px) and (max-width: 740px) {
+
   .Pixel-Me-Wrapper {
     display: flex;
     justify-content: center;
@@ -208,13 +209,14 @@ body {
 
 
 
+
   .Title-Wrapper h1 {
     text-align: center;
     font-family: '04b30';
-    font-size: 2em;
+    font-size: 1.8em;
     letter-spacing: 6px;
     color: white;
-    text-shadow: 5px 5px black;
+    text-shadow: 5px 5px green;
   }
 
   .Img-Wrapper {
@@ -248,7 +250,7 @@ body {
   .Press-Start a {
     box-sizing: border-box;
     font-family: 'manaspaceregular';
-    font-size: 1.5em;
+    font-size: 3.5em;
     font-size: 4vw;
     text-decoration: none;
     color: white;
@@ -266,6 +268,7 @@ body {
     100%{   color: white;     }
 }
 
+
 }
 
 
@@ -273,7 +276,11 @@ body {
 
 
 
-@media only screen and (min-width: 500px) and (max-width: 740px) {
+
+
+
+
+@media only screen and (orientation: portrait) and (min-width: 500px) and (max-width: 740px) {
   .Pixel-Me-Wrapper {
     display: flex;
     justify-content: center;
@@ -302,10 +309,6 @@ body {
     display: none;
   }
 
-  #Port-Title {
-    display: block;
-  }
-
 
 
 
@@ -315,7 +318,7 @@ body {
     font-size: 3em;
     letter-spacing: 6px;
     color: white;
-    text-shadow: 5px 5px black;
+    text-shadow: 5px 5px red;
   }
 
   .Img-Wrapper {
