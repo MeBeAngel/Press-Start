@@ -177,9 +177,7 @@ body {
 
 
 
-@media only screen and (orientation:landscape)
-and (min-device-width: 500px)
-and (max-device-width: 740px) {
+@media only screen and (orientation:landscape) {
   .Pixel-Me-Wrapper {
     display: flex;
     justify-content: center;
@@ -267,6 +265,7 @@ and (max-device-width: 740px) {
     99% {   color:transparent;  }
     100%{   color: white;     }
 }
+
 }
 
 
