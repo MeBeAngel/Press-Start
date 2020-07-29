@@ -110,15 +110,11 @@ body {
     background-color: ;
   }
 
-  #First, #Second {
-    display: none;
-  }
 
   .Title-Wrapper h1 {
     text-align: center;
     font-family: '04b30';
-    font-size: 3em;
-    font-size: 9vw;
+    font-size: 2em;
     letter-spacing: 6px;
     color: white;
     text-shadow: 4px 4px black;
@@ -155,8 +151,7 @@ body {
   .Press-Start a {
     box-sizing: border-box;
     font-family: 'manaspaceregular';
-    font-size: 1.3em;
-    font-size: 6vw;
+    font-size: 1.5em;
     text-decoration: none;
     color: white;
   }
@@ -205,19 +200,11 @@ body {
     background-color: ;
   }
 
-  #Mobile-Port-H1 {
-    display: none;
-  }
-
-  #First {
-    padding-right: 15px;
-  }
 
   .Title-Wrapper h1 {
     text-align: center;
     font-family: '04b30';
     font-size: 3em;
-    font-size: 6vw;
     letter-spacing: 6px;
     color: white;
     text-shadow: 5px 5px black;
@@ -254,8 +241,8 @@ body {
   .Press-Start a {
     box-sizing: border-box;
     font-family: 'manaspaceregular';
-    font-size: 1.3em;
-    font-size: 6vw;
+    font-size: 1.5em;
+    font-size: 4vw;
     text-decoration: none;
     color: white;
   }
@@ -304,19 +291,11 @@ body {
     background-color: ;
   }
 
-  #Mobile-Port-H1 {
-    display: none;
-  }
-
-  #First {
-    padding-right: 15px;
-  }
 
   .Title-Wrapper h1 {
     text-align: center;
     font-family: '04b30';
     font-size: 3em;
-    font-size: 6vw;
     letter-spacing: 7px;
     color: white;
     text-shadow: 5px 5px black;
@@ -353,8 +332,7 @@ body {
   .Press-Start a {
     box-sizing: border-box;
     font-family: 'manaspaceregular';
-    font-size: 1.3em;
-    font-size: 6vw;
+    font-size: 1.5em;
     text-decoration: none;
     color: white;
   }
@@ -404,19 +382,11 @@ body {
     background-color: ;
   }
 
-  #Mobile-Port-H1 {
-    display: none;
-  }
-
-  #First {
-    padding-right: 15px;
-  }
 
   .Title-Wrapper h1 {
     text-align: center;
     font-family: '04b30';
-    font-size: 3em;
-    font-size: 6vw;
+    font-size: 5em;
     letter-spacing: 7px;
     color: white;
     text-shadow: 5px 5px black;
@@ -453,8 +423,7 @@ body {
   .Press-Start a {
     box-sizing: border-box;
     font-family: 'manaspaceregular';
-    font-size: 1.3em;
-    font-size: 6vw;
+    font-size: 2.5em;
     text-decoration: none;
     color: white;
   }
