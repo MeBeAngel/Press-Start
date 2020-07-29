@@ -216,7 +216,7 @@ body {
     font-size: 1.8em;
     letter-spacing: 6px;
     color: white;
-    text-shadow: 5px 5px green;
+    text-shadow: 5px 5px black;
   }
 
   .Img-Wrapper {
@@ -250,8 +250,7 @@ body {
   .Press-Start a {
     box-sizing: border-box;
     font-family: 'manaspaceregular';
-    font-size: 3.5em;
-    font-size: 4vw;
+    font-size: 1.5em;
     text-decoration: none;
     color: white;
   }
@@ -318,7 +317,7 @@ body {
     font-size: 3em;
     letter-spacing: 6px;
     color: white;
-    text-shadow: 5px 5px red;
+    text-shadow: 5px 5px black;
   }
 
   .Img-Wrapper {
@@ -352,8 +351,7 @@ body {
   .Press-Start a {
     box-sizing: border-box;
     font-family: 'manaspaceregular';
-    font-size: 3.5em;
-    font-size: 4vw;
+    font-size: 2.5em;
     text-decoration: none;
     color: white;
   }
@@ -506,16 +504,12 @@ body {
     display: none;
   }
 
-  #Port-Title {
-    display: block;
-  }
-
 
 
   .Title-Wrapper h1 {
     text-align: center;
     font-family: '04b30';
-    font-size: 5em;
+    font-size: 4em;
     letter-spacing: 7px;
     color: white;
     text-shadow: 5px 5px black;
