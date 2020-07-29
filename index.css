@@ -171,6 +171,11 @@ body {
 
 }
 
+
+
+
+
+
 @media only screen and (min-width: 500px) and (max-width: 740px) {
   .Pixel-Me-Wrapper {
     display: flex;
@@ -200,10 +205,10 @@ body {
     text-align: center;
     font-family: '04b30';
     font-size: 3em;
-    font-size: 9vw;
+    font-size: 6vw;
     letter-spacing: 6px;
     color: white;
-    text-shadow: 4px 4px black;
+    text-shadow: 5px 5px black;
   }
 
   .Img-Wrapper {
@@ -256,6 +261,11 @@ body {
 }
 
 }
+
+
+
+
+
 
 @media only screen and (min-width: 741px) and (max-width: 1023px) {
   .Pixel-Me-Wrapper {
@@ -286,10 +296,10 @@ body {
     text-align: center;
     font-family: '04b30';
     font-size: 3em;
-    font-size: 9vw;
+    font-size: 6vw;
     letter-spacing: 6px;
     color: white;
-    text-shadow: 4px 4px black;
+    text-shadow: 5px 5px black;
   }
 
   .Img-Wrapper {
@@ -343,6 +353,12 @@ body {
 
 }
 
+
+
+
+
+
+
 @media only screen and (min-width: 1024px) {
   .Pixel-Me-Wrapper {
     display: flex;
@@ -372,10 +388,10 @@ body {
     text-align: center;
     font-family: '04b30';
     font-size: 3em;
-    font-size: 9vw;
+    font-size: 6vw;
     letter-spacing: 6px;
     color: white;
-    text-shadow: 4px 4px black;
+    text-shadow: 5px 5px black;
   }
 
   .Img-Wrapper {
