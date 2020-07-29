@@ -51,7 +51,7 @@ body {
 .Title-Wrapper {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   flex-wrap: wrap;
   box-sizing: border-box;
   width: 100%;
@@ -67,7 +67,7 @@ body {
 
 .Title-Wrapper h1 {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   font-family: '04b30';
   font-size: 2em;
   letter-spacing: 6px;
@@ -175,7 +175,6 @@ body {
 
   .Title-Wrapper h1 {
     font-size: 1.8em;
-    padding: 0px 0px 20px 0px;
   }
 
   .Press-Start a {
